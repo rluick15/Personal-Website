@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Drawing Application</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,700|Titillium+Web:400,700|Nunito:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<a href="../../portfolio.html" id="backToPortfolio">&#8592 Back to Portfolio</a>
+	<canvas	width="600" height="400" id="myCanvas"></canvas>
+	<div class="controls">
+		<ul id="colorMenu">
+			<li class="red selected"></li>
+			<li class="blue"></li>
+			<li class="yellow"></li>
+		</ul>
+		<ul id="optionMenu">
+			<li><button id="revealColorSelect">New Color</button></li>
+			<li><button id="revealLineSelect">Set Line Width</button></li>
+			<li><button id="clearScreen">Clear</button></li>
+		</ul>
+			<div id="colorSelect">
+				<span id="newColor"></span>
+				<div class="sliders">
+					<p>
+						<label for="red">Red</label>
+						<input id="red" name="red" type="range" min=0 max=255 value=0>
+					</p>
+					<p>
+						<label for="green">Green</label>
+						<input id="green" name="green" type="range" min=0 max=255 value=0>
+					</p>
+					<p>
+						<label for="blue">Blue</label>
+						<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+					</p>
+				</div>
+				<div>
+				<button id="addNewColor">Add Color</button>
+				</div>
+			</div>
+			<div id="lineSelect">
+				<span id="newLine"></span>
+				<div class="sliders" id="lineSection">
+					<p>
+						<label for="Line Width" id="line">Line Width</label>
+						<input id="lineWidth" name="Line Width" type="range" min=0 max=20 value=0>
+					</p>
+				</div>
+			</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>	
+</body>
+</html>

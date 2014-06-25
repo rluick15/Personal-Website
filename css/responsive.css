@@ -1,0 +1,132 @@
+@media screen and (min-width: 480px) {
+
+
+  /**********************
+  PORTFOLIO
+  **********************/
+
+	
+	#gallery li {
+    width: 28.3333%; 
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left; 
+  }
+	
+	#featuredText {
+		font-size: 0.7em;
+	}
+	
+	#featuredText h2 {
+	font-size: 1.8em;
+	text-decoration: underline;
+	margin-bottom: 4px;
+	}
+
+	#featuredText h3 {
+	font-size: 1.25em;
+	line-height: 0.8em;	
+	}
+	
+
+}
+  
+@media screen and (min-width: 850px) {
+
+
+  /**********************
+  PORTFOLIO
+  **********************/
+
+	
+	#featuredText {
+		font-size: 1em;
+	}
+	
+	#featuredText h2 {
+	font-size: 2.5em;
+	text-decoration: underline;
+	margin-bottom: 4px;
+	}
+
+	#featuredText h3 {
+	font-size: 1.5em;
+	line-height: 0.8em;	
+	}
+	
+	
+	
+  /**********************
+  TWO COLUMN LAYOUT
+  **********************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  
+  
+	
+  /**********************
+  HEADER
+  **********************/
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+			margin-bottom: 60px;
+  }
+  
+
+	
+	/**********************
+  ABOUT
+  **********************/
+  
+	.profile-photo {
+    float: left;
+    margin: 0 7.5% 80px -60px;
+		clear: both;
+  }
+	
+	#aboutfooter {
+		margin-top: -%;
+		}
+	
+
+}
+
+
+
+
+
+
